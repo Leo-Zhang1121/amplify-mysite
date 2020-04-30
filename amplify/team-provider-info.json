@@ -1,28 +1,15 @@
 {
-    "prod": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-amplifymysite-prod-82145-authRole",
-            "UnauthRoleArn": "arn:aws:iam::060954994766:role/amplify-amplifymysite-prod-82145-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::060954994766:role/amplify-amplifymysite-prod-82145-authRole",
-            "Region": "ap-southeast-2",
-            "DeploymentBucketName": "amplify-amplifymysite-prod-82145-deployment",
-            "UnauthRoleName": "amplify-amplifymysite-prod-82145-unauthRole",
-            "StackName": "amplify-amplifymysite-prod-82145",
-            "StackId": "arn:aws:cloudformation:ap-southeast-2:060954994766:stack/amplify-amplifymysite-prod-82145/7797a7e0-89f2-11ea-a292-0a1551879166",
-            "AmplifyAppId": "d15dsx0d0wez8q"
-        }
-    },
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-amplifymysite-dev-164746-authRole",
-            "UnauthRoleArn": "arn:aws:iam::060954994766:role/amplify-amplifymysite-dev-164746-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::060954994766:role/amplify-amplifymysite-dev-164746-authRole",
-            "Region": "ap-southeast-2",
-            "DeploymentBucketName": "amplify-amplifymysite-dev-164746-deployment",
-            "UnauthRoleName": "amplify-amplifymysite-dev-164746-unauthRole",
-            "StackName": "amplify-amplifymysite-dev-164746",
-            "StackId": "arn:aws:cloudformation:ap-southeast-2:060954994766:stack/amplify-amplifymysite-dev-164746/69676210-890b-11ea-ab15-0266790261ee",
-            "AmplifyAppId": "d15dsx0d0wez8q"
-        }
-    }
+	"dev": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-amplifymysite-dev-164746-authRole",
+			"UnauthRoleArn": "arn:aws:iam::060954994766:role/amplify-amplifymysite-dev-164746-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::060954994766:role/amplify-amplifymysite-dev-164746-authRole",
+			"Region": "ap-southeast-2",
+			"DeploymentBucketName": "amplify-amplifymysite-dev-164746-deployment",
+			"UnauthRoleName": "amplify-amplifymysite-dev-164746-unauthRole",
+			"StackName": "amplify-amplifymysite-dev-164746",
+			"StackId": "arn:aws:cloudformation:ap-southeast-2:060954994766:stack/amplify-amplifymysite-dev-164746/69676210-890b-11ea-ab15-0266790261ee",
+			"AmplifyAppId": "d15dsx0d0wez8q"
+		}
+	}
 }

@@ -1,0 +1,34 @@
+@import "../../utils/styleConstants";
+
+$desktop: 992px;
+
+@mixin desktop {
+    @media only screen and (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+.navBar_Brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: $headers;
+    a {
+        text-decoration: none;
+        color: color(white);
+    }
+}
+
+.navBar_items {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: $texts;
+    @include desktop {
+        padding-right: 177px;
+    }
+}
+
+#responsive-navbar-nav {
+    text-align: center !important;
+}

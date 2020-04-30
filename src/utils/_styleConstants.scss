@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Overpass&display=swap");
+
+$colors: (
+    white: #fff,
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+$headers: "'Libre Baskerville', serif";
+$texts: "'Overpass', sans-serif";
